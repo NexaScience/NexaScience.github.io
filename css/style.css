@@ -1003,6 +1003,19 @@ a:hover {
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
 }
 
+.aixs-hero__moon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  max-width: 500px;
+  height: auto;
+  opacity: 0.25;
+  pointer-events: none;
+  user-select: none;
+}
+
 .aixs-hero__title {
   font-family: 'Inter', 'Noto Sans JP', sans-serif;
   font-size: clamp(4rem, 12vw, 7rem);
