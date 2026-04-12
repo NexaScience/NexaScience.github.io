@@ -991,17 +991,6 @@ a:hover {
   overflow: hidden;
 }
 
-/* Subtle gradient line under hero content */
-.aixs-hero::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 200px;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-}
 
 .aixs-hero__moon {
   position: absolute;
