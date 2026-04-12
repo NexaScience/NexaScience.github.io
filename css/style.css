@@ -1049,7 +1049,7 @@ a:hover {
 .aixs-hero ~ .section {
   background: #000000;
   padding: 100px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: none;
 }
 
 /* Feature list — vertical stacked cards */
