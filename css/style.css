@@ -943,6 +943,35 @@ a:hover {
    Lnar PAGE — Vercel-Inspired Dark Theme
    =================================================== */
 
+/* Dark header & footer for Lnar page */
+.page-lnar .site-header {
+  background: #000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.page-lnar .site-nav a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.page-lnar .site-nav a:hover,
+.page-lnar .site-nav a.active {
+  color: #fff;
+}
+
+.page-lnar .site-nav a[href="aixs.html"] {
+  color: #fff;
+}
+
+.page-lnar .nav-toggle span {
+  background: #fff;
+}
+
+.page-lnar .site-footer {
+  background: #000;
+  color: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 /* Hero section */
 .aixs-hero {
   background: #000000;
