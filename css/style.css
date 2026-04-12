@@ -182,7 +182,7 @@ a:hover {
   transition: background var(--transition-normal), color var(--transition-normal);
 }
 
-/* AIXS nav button - pill style */
+/* Lnar nav button - pill style */
 .site-nav a[href="aixs.html"] {
   background: var(--color-accent);
   color: #fff;
@@ -940,7 +940,7 @@ a:hover {
 }
 
 /* ===================================================
-   AIXS PAGE — Dark Premium Theme
+   Lnar PAGE — Dark Premium Theme
    =================================================== */
 
 /* Hero section */
