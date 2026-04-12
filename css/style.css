@@ -1050,22 +1050,22 @@ a:hover {
 
 .aixs-feature-item {
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0;
   padding: 48px 32px;
   transition: border-color 200ms ease, box-shadow 200ms ease;
   text-align: left;
 }
 
-.aixs-feature-item:hover {
-  border-color: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 0 40px rgba(255, 255, 255, 0.03);
+.aixs-feature-item:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .aixs-feature-item__num {
   display: block;
   font-family: 'Inter', monospace;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.3);
   letter-spacing: 0.15em;
