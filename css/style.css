@@ -1011,7 +1011,7 @@ a:hover {
   width: 50vw;
   max-width: 500px;
   height: auto;
-  opacity: 0.35;
+  opacity: 0.25;
   pointer-events: none;
   user-select: none;
 }
