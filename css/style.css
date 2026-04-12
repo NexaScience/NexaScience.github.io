@@ -943,6 +943,11 @@ a:hover {
    Lnar PAGE — Vercel-Inspired Dark Theme
    =================================================== */
 
+.page-lnar {
+  background: #000;
+  color: #fff;
+}
+
 /* Dark header & footer for Lnar page */
 .page-lnar .site-header {
   background: #000;
