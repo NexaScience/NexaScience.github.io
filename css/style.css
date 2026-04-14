@@ -183,8 +183,8 @@ a:hover {
 }
 
 /* Lnar nav button - pill style */
-.site-nav a[href="aixs.html"],
-.site-nav a[href$="aixs.html"] {
+.site-nav a[href="lnar.html"],
+.site-nav a[href$="lnar.html"] {
   background: var(--color-accent);
   color: #fff;
   border-radius: var(--radius-full);
@@ -196,10 +196,10 @@ a:hover {
   transition: all var(--transition-normal);
 }
 
-.site-nav a[href="aixs.html"]:hover,
-.site-nav a[href$="aixs.html"]:hover,
-.site-nav a[href="aixs.html"].active,
-.site-nav a[href$="aixs.html"].active {
+.site-nav a[href="lnar.html"]:hover,
+.site-nav a[href$="lnar.html"]:hover,
+.site-nav a[href="lnar.html"].active,
+.site-nav a[href$="lnar.html"].active {
   background: var(--color-accent-hover);
   color: #fff;
   box-shadow: 0 6px 24px rgba(0,0,0,0.3);
@@ -965,7 +965,7 @@ a:hover {
   color: #fff;
 }
 
-.page-lnar .site-nav a[href="aixs.html"] {
+.page-lnar .site-nav a[href="lnar.html"] {
   color: #fff;
 }
 
@@ -980,7 +980,7 @@ a:hover {
 }
 
 /* Hero section */
-.aixs-hero {
+.lnar-hero {
   background: #000000;
   color: #fff;
   min-height: 60vh;
@@ -994,7 +994,7 @@ a:hover {
 }
 
 
-.aixs-hero__moon {
+.lnar-hero__moon {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1007,7 +1007,7 @@ a:hover {
   user-select: none;
 }
 
-.aixs-hero__title {
+.lnar-hero__title {
   font-family: 'Inter', 'Noto Sans JP', sans-serif;
   font-size: clamp(4rem, 12vw, 7rem);
   font-weight: 700;
@@ -1018,7 +1018,7 @@ a:hover {
   position: relative;
 }
 
-.aixs-hero__subtitle {
+.lnar-hero__subtitle {
   font-family: 'Inter', 'Noto Sans JP', sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
@@ -1028,7 +1028,7 @@ a:hover {
   color: rgba(255, 255, 255, 0.4);
 }
 
-.aixs-hero__desc {
+.lnar-hero__desc {
   font-size: 1rem;
   line-height: 1.8;
   max-width: 560px;
@@ -1037,14 +1037,14 @@ a:hover {
 }
 
 /* Features section — seamless dark background */
-.aixs-hero ~ .section {
+.lnar-hero ~ .section {
   background: #000000;
   padding: 100px 0;
   border-top: none;
 }
 
 /* Feature list — vertical stacked cards */
-.aixs-features-list {
+.lnar-features-list {
   max-width: 720px;
   margin: 0 auto;
   display: flex;
@@ -1052,7 +1052,7 @@ a:hover {
   gap: 24px;
 }
 
-.aixs-feature-item {
+.lnar-feature-item {
   background: transparent;
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -1062,11 +1062,11 @@ a:hover {
   text-align: left;
 }
 
-.aixs-feature-item:last-child {
+.lnar-feature-item:last-child {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.aixs-feature-item__num {
+.lnar-feature-item__num {
   display: block;
   font-family: 'Inter', monospace;
   font-size: 0.7rem;
@@ -1076,7 +1076,7 @@ a:hover {
   margin-bottom: var(--space-3);
 }
 
-.aixs-feature-item__title {
+.lnar-feature-item__title {
   font-family: 'Inter', 'Noto Sans JP', sans-serif;
   font-size: clamp(1.15rem, 2.5vw, 1.35rem);
   font-weight: 600;
@@ -1086,28 +1086,28 @@ a:hover {
   letter-spacing: -0.01em;
 }
 
-.aixs-feature-item__desc {
+.lnar-feature-item__desc {
   font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.5);
   line-height: 1.8;
 }
 
 /* CTA section */
-.aixs-cta {
+.lnar-cta {
   background: #000000;
   color: #fff;
   text-align: center;
   padding: 100px 0;
 }
 
-.aixs-cta .container {
+.lnar-cta .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: var(--space-8);
 }
 
-.aixs-cta__text {
+.lnar-cta__text {
   font-family: 'Inter', 'Noto Sans JP', sans-serif;
   font-size: clamp(1rem, 2vw, 1.25rem);
   font-weight: 400;
@@ -1117,7 +1117,7 @@ a:hover {
 }
 
 /* Override .btn--white for dark CTA context */
-.aixs-cta .btn--white {
+.lnar-cta .btn--white {
   background: transparent;
   color: #ededed;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1129,7 +1129,7 @@ a:hover {
   transition: background 200ms ease, color 200ms ease, border-color 200ms ease;
 }
 
-.aixs-cta .btn--white:hover {
+.lnar-cta .btn--white:hover {
   background: #fff;
   color: #000000;
   border-color: #fff;
@@ -1326,20 +1326,20 @@ a:hover {
   }
 
 
-  .aixs-hero {
+  .lnar-hero {
     min-height: 40vh;
     padding: 80px 0 64px;
   }
 
-  .aixs-hero ~ .section {
+  .lnar-hero ~ .section {
     padding: 64px 0;
   }
 
-  .aixs-cta {
+  .lnar-cta {
     padding: 64px 0;
   }
 
-  .aixs-feature-item {
+  .lnar-feature-item {
     padding: 32px 24px;
   }
 

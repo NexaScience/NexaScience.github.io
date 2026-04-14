@@ -9,7 +9,7 @@
 | ページ | ファイル | 内容 |
 |---|---|---|
 | HOME | `index.html` | ヒーロー、MISSION、VISION、PRODUCT、MEMBERS、COMPANY |
-| Lnar | `aixs.html` | Lnar（Linkage for Agent Resources）プロダクト紹介 |
+| Lnar | `lnar.html` | Lnar（Linkage for Agent Resources）プロダクト紹介 |
 | NEWS | `news.html` | ニュース・プレスリリース |
 | CONTACT | `contact.html` | お問い合わせ |
 
