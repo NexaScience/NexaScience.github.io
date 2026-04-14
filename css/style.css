@@ -997,7 +997,7 @@ a:hover {
 .lnar-hero__moon {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 60%;
   transform: translate(-50%, -50%);
   width: 50vw;
   max-width: 500px;
