@@ -183,7 +183,8 @@ a:hover {
 }
 
 /* Lnar nav button - pill style */
-.site-nav a[href="aixs.html"] {
+.site-nav a[href="aixs.html"],
+.site-nav a[href$="aixs.html"] {
   background: var(--color-accent);
   color: #fff;
   border-radius: var(--radius-full);
@@ -196,7 +197,9 @@ a:hover {
 }
 
 .site-nav a[href="aixs.html"]:hover,
-.site-nav a[href="aixs.html"].active {
+.site-nav a[href$="aixs.html"]:hover,
+.site-nav a[href="aixs.html"].active,
+.site-nav a[href$="aixs.html"].active {
   background: var(--color-accent-hover);
   color: #fff;
   box-shadow: 0 6px 24px rgba(0,0,0,0.3);
