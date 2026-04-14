@@ -1134,6 +1134,77 @@ a:hover {
 }
 
 /* ===================================================
+   NEWS ARTICLE PAGE
+   =================================================== */
+
+.news-article {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 20px 0 60px;
+}
+
+.news-article__date {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
+  letter-spacing: 0.03em;
+}
+
+.news-article__title {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.5;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.news-article__body {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  line-height: 2.1;
+}
+
+.news-article__body p {
+  margin-bottom: 24px;
+}
+
+.news-article__body h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-top: 48px;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.news-article__body h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.news-article__body ul,
+.news-article__body ol {
+  margin: 16px 0 24px 24px;
+}
+
+.news-article__body li {
+  margin-bottom: 8px;
+  line-height: 1.9;
+}
+
+.news-article__back {
+  display: inline-block;
+  margin-top: 56px;
+  color: var(--color-accent);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* ===================================================
    SCROLL REVEAL
    =================================================== */
 
