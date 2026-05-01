@@ -1170,6 +1170,19 @@ a:hover {
   margin-bottom: 40px;
 }
 
+/* Portrait photos (e.g. advisor headshots) should be displayed smaller and
+   centered, instead of being stretched to the article width and cropped. */
+.news-article__image[src$="news_senmoto.jpg"] {
+  display: block;
+  width: auto;
+  max-width: 320px;
+  max-height: none;
+  height: auto;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .news-article__body {
   font-size: 1rem;
   color: var(--color-text-muted);
